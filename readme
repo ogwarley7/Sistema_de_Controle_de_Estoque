@@ -1,0 +1,30 @@
+# Sistema de Controle de Estoque
+
+## Descrição
+
+O Sistema de Controle de Estoque é uma aplicação para gerenciar produtos, fornecedores e pedidos de reposição. Este repositório contém o código SQL necessário para criar e gerenciar o banco de dados do sistema.
+
+## Estrutura do Banco de Dados
+
+O banco de dados contém as seguintes tabelas:
+
+- **Fornecedores**: Armazena informações sobre os fornecedores.
+- **Produtos**: Armazena informações sobre os produtos e sua quantidade em estoque.
+- **PedidosReposicao**: Registra os pedidos de reposição realizados.
+
+## Comandos SQL
+
+### 1. Excluir e Criar o Banco de Dados
+
+```sql
+-- Excluir o banco de dados se ele existir
+DROP DATABASE IF EXISTS SistemaControleEstoque;
+
+-- Criar o banco de dados
+CREATE DATABASE SistemaControleEstoque;
+
+-- Selecionar o banco de dados para uso
+USE SistemaControleEstoque;
+
+-- Desativar a segurança de atualizações (para permitir atualizações e exclusões sem cláusula WHERE)
+SET SQL_SAFE_UPDATES = 0;
