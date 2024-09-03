@@ -1,0 +1,15 @@
+Sistema de Controle de Estoque
+
+Descrição: O Sistema de Controle de Estoque é uma solução para gerenciar produtos, fornecedores e pedidos de reposição. Este sistema visa permitir uma gestão eficiente de inventário, possibilitando o armazenamento e consulta de informações relacionadas aos produtos disponíveis, seus fornecedores e os pedidos de reposição realizados para manter o estoque adequado.
+
+Objetivo: Desenvolver um banco de dados que permita gerenciar e consultar informações sobre:
+
+Fornecedores
+Produtos
+Pedidos de reposição
+Funcionalidades:
+
+Criação e gerenciamento de tabelas para fornecedores, produtos e pedidos de reposição.
+Inserção e atualização de dados no banco de dados.
+Consultas para visualizar o estoque de produtos e os pedidos de reposição.
+Exclusão de registros desnecessários.
