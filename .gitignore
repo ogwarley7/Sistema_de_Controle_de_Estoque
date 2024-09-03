@@ -1,0 +1,15 @@
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos específicos do MySQL Workbench
+*.mysql
+
+# Ignorar arquivos de backup
+*.sql~
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar diretórios de cache
+.cache/
